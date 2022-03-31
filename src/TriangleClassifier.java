@@ -22,7 +22,7 @@ public class TriangleClassifier {
                 return "Tam Giac Can";
             }
         }
-        return "";
+        return "Tam Giac Thuong";
     }
 
 
