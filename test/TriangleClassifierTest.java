@@ -13,4 +13,13 @@ class TriangleClassifierTest {
         String result = TriangleClassifier.Triangle(a,b,c);
         assertEquals(expected, result);
     }
+    @Test
+    void testtriangleCan() {
+        int a = 2;
+        int b = 2;
+        int c = 3;
+        String expected = "Tam Giac Can";
+        String result = TriangleClassifier.Triangle(a,b,c);
+        assertEquals(expected, result);
+    }
 }
