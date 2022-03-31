@@ -21,8 +21,9 @@ public class TriangleClassifier {
             else if (a==b || b==c || a==c){
                 return "Tam Giac Can";
             }
+            return "Tam Giac Thuong";
         }
-        return "Tam Giac Thuong";
+        return " Khong La Tam Giac";
     }
 
 
