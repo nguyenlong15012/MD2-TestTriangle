@@ -18,6 +18,9 @@ public class TriangleClassifier {
             if (a==b && b==c){
                 return "Tam Giac Deu";
             }
+            else if (a==b || b==c || a==c){
+                return "Tam Giac Can";
+            }
         }
         return "";
     }
