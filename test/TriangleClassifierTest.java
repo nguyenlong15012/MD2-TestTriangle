@@ -27,7 +27,7 @@ class TriangleClassifierTest {
     void testTriangleNor() {
         int a = 2;
         int b = 3;
-        int c = 5;
+        int c = 4;
         String expected = "Tam Giac Thuong";
         String result = TriangleClassifier.Triangle(a,b,c);
         assertEquals(expected, result);
