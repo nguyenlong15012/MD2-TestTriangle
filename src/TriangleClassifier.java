@@ -13,6 +13,14 @@ public class TriangleClassifier {
     }
 
     public static String Triangle(int a, int b, int c){
+        //Xet Triangle;
+        if (a+b>c && a+c>b && b+c>a){
+            if (a==b && b==c){
+                return "Tam Giac Deu";
+            }
+        }
         return "";
     }
+
+
 }
